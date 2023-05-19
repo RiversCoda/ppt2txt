@@ -41,5 +41,3 @@ To install and use python-pptx in a Conda environment, follow these steps:
 Remember to activate your Conda environment (`conda activate py4ppt`) every time you want to use python-pptx in your projects.
 
 Note: Make sure you have Conda and pip installed and properly set up before following these instructions.
-
-Enjoy working with python-pptx in your Conda environment!
