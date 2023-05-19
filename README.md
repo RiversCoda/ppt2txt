@@ -1,4 +1,5 @@
 # Creating Conda Environment and Installing python-pptx
+#### 中文版本readme请查看[readme](./README_lang=CH.md)
 
 To install and use python-pptx in a Conda environment, follow these steps:
 
