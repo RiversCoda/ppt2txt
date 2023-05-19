@@ -13,3 +13,5 @@ for filename in os.listdir(input_directory):
     if filename.endswith('.pptx'):
         # Call the ppt_to_txt function to process the pptx file
         ppt2Doc.ppt_to_txt(file_path, output_directory)
+
+

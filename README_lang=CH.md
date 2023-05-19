@@ -1,4 +1,34 @@
-# 如果你不会使用Conda或者没有使用conda
+## 使用方法
+
+1. 将希望从中提取文本的 PowerPoint 文件放置在 `input` 目录中。
+
+2. 运行 `demo.py` 脚本，使用以下命令：
+
+   ```bash
+   python demo.py
+   ```
+
+   该脚本将处理 `input` 目录中的 PPT 文件，并提取其中的文本内容。提取的文本将保存在 `output` 目录中的单独文本文件中。
+
+3. 如果你希望将所有输出内容合并到一个文件中，可以运行 `sum.py` 脚本，使用以下命令：
+
+   ```bash
+   python sum.py
+   ```
+
+   该脚本将合并 `output` 目录中的所有文本文件，并生成一个名为 `sum.txt` 的文件。`sum.txt` 文件将位于 `output` 目录中。
+
+   注意：在运行之前，请确保你对所在目录具有读取和写入文件的权限。
+
+# 环境安装
+## 环境需求
+- python3.6
+- lxml
+- pillow
+- xlsxwriter
+#### 请安装上述环境后安装
+- python-pptx
+## 如果你不会使用Conda或者没有使用conda
 请确保你使用的是python3.6版本,更高或者更低的版本都有可能导致出错
 1. 使用如下指令安装python-ppt所需要的依赖
     ```bash
@@ -10,7 +40,7 @@
     ```bash
     pip install python-pptx
     ```
-# 创建 Conda 环境并安装 python-pptx
+## 创建 Conda 环境并安装 python-pptx
 
 要在 Conda 环境中安装和使用 python-pptx，请按照以下步骤进行操作：
 

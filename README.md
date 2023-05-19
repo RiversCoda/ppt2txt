@@ -1,5 +1,33 @@
-# Creating Conda Environment and Installing python-pptx
-#### 中文版本readme请查看[readme](./README_lang=CH.md)
+[中文版本README](./README_lang=CH.md)
+# Instructions
+
+1. Place the PowerPoint files you want to extract text from in the `input` directory.
+
+2. Run `demo.py` using the following command:
+
+   ```bash
+   python demo.py
+   ```
+
+   This script will process the PPT files in the `input` directory and extract the text content. The extracted text will be saved in separate text files in the `output` directory.
+
+3. If you want to merge all the output content into a single file, you can run `sum.py` using the following command:
+
+   ```bash
+   python sum.py
+   ```
+
+   This script will combine all the text files in the `output` directory into a file named `sum.txt`. The `sum.txt` file will be located in the `output` directory.
+
+   Note: Make sure you have the necessary permissions to read and write files in the respective directories.
+
+# requirement
+- python3.6
+- lxml
+- pillow
+- xlsxwriter
+- python-pptx
+## Creating Conda Environment and Installing python-pptx
 
 To install and use python-pptx in a Conda environment, follow these steps:
 
