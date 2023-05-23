@@ -1,4 +1,5 @@
 [中文版本README](./README_lang=CH.md)
+## 简易开始：直接点release里面的懒人版解压即用，无需安装
 # Instructions
 
 1. Place the PowerPoint files you want to extract text from in the `input` directory.
